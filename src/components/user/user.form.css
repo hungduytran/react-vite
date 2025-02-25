@@ -1,0 +1,14 @@
+.user-form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.user-form > div {
+    width: 100%; /* Ensure the inner div takes full width */
+    max-width: 400px; /* Optional: Limit the maximum width */
+}
