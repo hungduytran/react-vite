@@ -10,6 +10,14 @@ const UserFrom = () => {
     const [phone, setPhone] = useState("");
 
     const handleClickBtn = () => {
+        const URL_BACKEND= "";
+        const data = {
+            fullName: fullName,
+            email: email,
+            password : password,
+            phone: phone
+        }
+        axios.post(URL_BACKEND, data)
         console.log(fullName);
     }
     return (
